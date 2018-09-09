@@ -22,7 +22,7 @@ Crear en su servidor de preferencia un repositorio con el nombre que desee y la 
 
 Configurar su nombre de usuario y email para el repositorio con el fin de evitar commits anónimos. `Hint: git config`
 
-Definirá su línea base de desarrollo con los siguientes (su commit inicial desde la rama __master__):
+Definirá su línea base de desarrollo (su commit inicial desde la rama __master__) creando algunos archivos dentro del repositorio, como por ejemplo :
 * markdown.md
 * loremipsum.md
 * config.txt
@@ -49,7 +49,7 @@ Luego el stage deberá quedar sin cambios pendientes
 Deberá agregar dos archivos más al repositorio y rastrearlos en commits independientes.
 
 Luego renombrar uno de los archivos y hacer commit a los cambios. `Hint: git mv old_name_file new_name_file`
-Luego eliminar el archivo restante y realizar commit. `Hint: git rm name_file`
+Luego eliminar otro archivo restante y realizar commit. `Hint: git rm name_file`
 
 Deberá publicar sus cambios en el servidor y allí realizar un pull request a la rama de devel. 
 
